@@ -1,0 +1,6 @@
+{
+  "runtime": "python3.11",
+  "functionName": "<+service.name>",
+  "handler": "handler.lambda_handler",
+  "role": "<+variable.lambda_arn>"
+}
