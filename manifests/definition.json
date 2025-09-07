@@ -1,6 +1,6 @@
 {
-  "runtime": "python3.11",
+  "runtime": "nodejs22.x",
   "functionName": "<+service.name>",
-  "handler": "lambda_function.lambda_handler",
+  "handler": "index.handler",
   "role": "<+variable.lambda_arn>"
 }
